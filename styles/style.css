@@ -7,7 +7,7 @@
 
 .header_menu {
   font-weight: 400;
-  font-size: 18px;
+  font-size: 19px;
 }
 
 .header_links-list {
@@ -37,15 +37,14 @@
   justify-self: end;
   max-width: 240px;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 19px;
   font-style: normal;
-  line-height: 1.35;
+  line-height: 24.3px;
 }
 
 .cover {
   position: relative;
   min-height: 757px;
-  margin-top: 120px;
   background-image: url(../images/cover.jpg);
   background-position: center;
   background-size: cover;
@@ -69,7 +68,7 @@
   color: #fff;
   font-weight: 700;
   font-size: 100px;
-  line-height: 1.15;
+  line-height: 115%;
   letter-spacing: 0.3em;
   text-align: center;
   text-transform: uppercase;
@@ -92,7 +91,7 @@
 }
 
 .aligned-text_center {
-  margin-left: 15px;
+  margin-left: 30px;
   text-align: center;
 }
 
@@ -114,7 +113,7 @@
 .cover__description-text {
   font-weight: 400;
   font-size: 22px;
-  line-height: 1.27273;
+  line-height: 28px;
   text-transform: uppercase;
   word-spacing: 0.8em;
 }
@@ -134,7 +133,7 @@
   display: flex;
   flex-direction: column;
   gap: 30px;
-  padding: 120px 24px 120px;
+  padding: 180px 24px 0;
 }
 
 .lots__heading {
@@ -216,12 +215,12 @@
 }
 
 .about {
-  padding: 0 24px;
+  padding: 120px 24px 180px;
 }
 
 .about__column {
   display: grid;
-  grid-template-columns: 334px auto;
+  grid-template-columns: 336px auto;
 }
 
 .about__logo {
@@ -262,8 +261,8 @@
   gap: 24px;
   color: #000;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 1.2;
+  font-size: 21px;
+  line-height: 24px;
 }
 
 .footer {
@@ -272,7 +271,18 @@
   justify-content: space-between;
   align-items: start;
   min-height: 180px;
-  padding: 120px 50px 0;
+  padding: 0 50px 82px;
+}
+
+.footer__address {
+  display: flex;
+  flex-direction: column;
+  justify-self: start;
+  max-width: 265px;
+  font-weight: 400;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 24.3px;
 }
 
 .footer__menu {
@@ -288,17 +298,6 @@
 
 .footer__menu-link_active {
   text-decoration: none;
-}
-
-.address {
-  display: flex;
-  flex-direction: column;
-  justify-self: start;
-  max-width: 265px;
-  font-weight: 400;
-  font-size: 18px;
-  font-style: normal;
-  line-height: 1.35;
 }
 
 .footer__social-list {
